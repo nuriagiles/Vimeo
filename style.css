@@ -323,35 +323,116 @@ hr{
     display: flex;
 }
 .grey1{
-    width: 60px;
+    width: 55px;
     height: 20px;
     background-color: #FFFFFF;
 }
 .grey2{
-    width: 60px;
+    width: 55px;
     height: 20px;
     background-color: #E4E9EF;
 }
 .grey3{
-    width: 60px;
+    width: 55px;
     height: 20px;
     background-color: #CBD5E0;
 }
 .grey4{
-    width: 60px;
+    width: 55px;
     height: 20px;
     background-color: #97A1AD;
 }
 .grey5{
-    width: 60px;
+    width: 55px;
     height: 20px;
     background-color: #68727C;
 }
 .grey6{
-    width: 60px;
+    width: 55px;
+    height: 20px;
+    background-color: #3D4751;
+}
+.grey7{
+    width: 55px;
+    height: 20px;
+    background-color: #252D35;
+}
+.grey8{
+    width: 55px;
     height: 20px;
     background-color: #181E24;
 }
+.colores-grises-div{
+    display: flex;
+}
+.comunidad-div{
+    color: white;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.novedades-div{
+    padding-left: 20px;
+
+}
+.tarjetas-new{
+    width: 345px;
+    height: 401px;
+    background-color: #F1F5F9;
+    border-radius: 10px;
+ }
+.tarjetas-new button{
+    background-color: #141A20;
+    color: white;
+    width: 300px;
+    height: 48px;
+    border-radius: 10px;
+    text-align: start;
+    position: relative;
+ }
+.new{
+    background-color: #17D5FF;
+    width: 44px;
+    height: 19px;
+    font-size: 12px;
+    border-radius: 4px;
+    text-align: center;
+ }
+ /*Footer*/
+ .equipo-asistencia-div{
+    background-color: #DFE4EA;
+    width: 285px;
+    height: 78px;
+    border-radius: 10px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ .equipo-asistencia-arrow{
+    background-color: #FAFCFD;
+    width: 49px;
+    height: 28px;
+    border-radius: 5px;
+ }
+ .idioma-seleccionado{
+    display: flex;
+    gap: 10px;
+ }
+ .idioma-div{
+    background-color: #DFE4EA;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+ }
+ .footer-social-div{
+    display: flex;
+    justify-content: space-between;
+
+ }
+
 @media (max-width: 768px){
     .nav-bar{
         justify-content: space-between;
