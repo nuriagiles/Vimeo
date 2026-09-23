@@ -322,6 +322,36 @@ hr{
 .colores-div{
     display: flex;
 }
+.grey1{
+    width: 60px;
+    height: 20px;
+    background-color: #FFFFFF;
+}
+.grey2{
+    width: 60px;
+    height: 20px;
+    background-color: #E4E9EF;
+}
+.grey3{
+    width: 60px;
+    height: 20px;
+    background-color: #CBD5E0;
+}
+.grey4{
+    width: 60px;
+    height: 20px;
+    background-color: #97A1AD;
+}
+.grey5{
+    width: 60px;
+    height: 20px;
+    background-color: #68727C;
+}
+.grey6{
+    width: 60px;
+    height: 20px;
+    background-color: #181E24;
+}
 @media (max-width: 768px){
     .nav-bar{
         justify-content: space-between;
