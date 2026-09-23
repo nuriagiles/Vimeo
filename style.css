@@ -18,6 +18,12 @@ button{
 
 .nav-content{
     display: flex;
+ 
+}
+.nav-content a{
+    text-decoration: none;    
+    font-style: normal;       
+    color: black;
 }
 /*Secciones*/
 .section-white{
@@ -112,8 +118,7 @@ button{
 }
 .title-confianza{
     font-size: 20px;
-    color: #0A0E12;
-    m
+    color: #0A0E12;    
 }
 .div-confianza p{
     margin-bottom: 30px;
@@ -219,6 +224,43 @@ button{
     font-size: 20px;
 
 }
+
+.seguridad-div{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.seguridad-title-div{
+    text-align: center;
+    margin-top: 35px;
+}
+.seguridad-title-div p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.seguridad-title-div button{
+    background-color: #141A20;
+    width: 300px;
+    height: 69px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: start;
+    position: relative;
+    margin-bottom: 50px;
+}
+.tranquilidad-div{
+    background-color: #FAFCFD;
+    height: 49px;
+    width: 100px;
+    position: absolute;
+    transform: translateY(-10px)
+}
+.tranquilidad-div hr{
+    position: relative;
+}
+
 @media (max-width: 768px){
     .nav-bar{
         justify-content: space-between;
