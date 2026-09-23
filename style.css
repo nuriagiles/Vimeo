@@ -1,4 +1,17 @@
 /*header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+button{
+    font-family: 'Inter', sans-serif;
+    border-style: none;
+}
 .nav-bar{
     display: flex;    
 }
@@ -6,29 +19,211 @@
 .nav-content{
     display: flex;
 }
+/*Secciones*/
+.section-white{
+    background-color: #FAFCFD;
+    width: 100vw;
+}
+.section-black{
+    background-color: #141A20;
+    width: 100vw;
+}
+.section-grey{
+    background-color: #F1F5F9;
+    width: 100vw;
+}
 
+/*Seccion 1*/
 .div-plataforma {
   position: relative;     
   height: 500px;          
-  overflow: hidden;       
+  overflow: hidden;  
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-self: center;
 }
 
 .imagen-adaptable {
   width: 100%;
   height: 100%;
   object-fit: cover;     
+  border-radius: 15px;
 }
 .div-plataforma-content {
   position: absolute;
   top: 50%;               
   left: 10%;              
   transform: translateY(-50%); 
-  color: white;           
+  color: white;       
+  text-align: center;    
 }
+.div-plataforma-content div{
+    margin-bottom: 20px;
+    justify-self: center;
+}
+.ver-planes-btn{
+    background-color: #17D5FF;
+    width: 300px;
+    height: 48px;
+    border-radius: 10px;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+}
+.arrow-negra{
+    position: absolute;
 
+}
+.position{
+    top: 52%;
+    left: 82%;
+}
+.probar-gratis-btn{
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    position: relative;
+}
+.arrow-blanca{
+    position: absolute;
+
+}
+.position2{
+    top: 68%;
+    left: 63%;
+}
+.reproducir-btn{
+    background-color: #B9B8B5;
+    border-radius: 10px;
+    width: 162px;
+    height: 48px;
+    padding-left: 30px;
+    text-align: start;
+}
+.div-confianza{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 30px;
+
+}
+.title-confianza{
+    font-size: 20px;
+    color: #0A0E12;
+    m
+}
+.div-confianza p{
+    margin-bottom: 30px;
+}
+.div-diseñado{
+    margin-top: 150px;
+}
+.title-diseñado{
+    font-size: 35px;
+}
+.texto-sso{
+    color: #596570;
+    margin-top: 20px;
+}
+/*seccion 2*/
+.impulsa-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    color: white;
+}
+.impulsa-div h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.impulsa-div button{
+    background-color: transparent;
+    color: white;
+    position: relative;
+}
+.impulsa-div div{
+    padding-bottom: 40px;
+}
+/*seccion 3*/
+.cole-div{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.play-negra{
+    position: absolute;
+    top: 84%;
+    left: 60%;
+}
+.solucion-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+.solucion-div h2{
+    margin-bottom: 20px;
+}
+.solucion-div button{
+    margin-top: 25px;
+    background-color: #141A20;
+    color: white;
+    width: 300px;
+    height: 48px;
+    border-radius: 10px;
+    position: absolute;
+}
+.cole-solucion-div{
+    margin-bottom: 20px;
+}
+.pros-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 120px;
+}
+.pros-puntos-div{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.pros-puntos-div button{
+    background-color: transparent;
+
+}
+.clientes-div{
+    padding-top: 30px;
+    height: 440px;
+}
+.clientes-div p{
+    text-align: center;
+}
+.ia-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 50px;
+}
+.ia-div button{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    text-align: start;
+}
+.ia-title-div{
+    display: flex;
+    font-size: 20px;
+
+}
 @media (max-width: 768px){
     .nav-bar{
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .nav-content{
         gap: 10px;
@@ -38,5 +233,9 @@
     .nav-content p{
         font-size: 10px; 
         margin-top: 0px;       
+    }
+    .img-size{
+        width: 340px;
+        margin-bottom: 20px;        
     }
 }
