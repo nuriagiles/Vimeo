@@ -42,7 +42,7 @@ button{
 /*Seccion 1*/
 .div-plataforma {
   position: relative;     
-  height: 500px;          
+  height: 530px;          
   overflow: hidden;  
   margin-bottom: 50px;
   margin-top: 20px;
@@ -56,14 +56,27 @@ button{
   height: 100%;
   object-fit: cover;     
   border-radius: 15px;
+  filter: brightness(60%);
 }
 .div-plataforma-content {
   position: absolute;
-  top: 50%;               
-  left: 10%;              
+  top: 50%;                           
   transform: translateY(-50%); 
   color: white;       
-  text-align: center;    
+  text-align: center;
+  padding-right: 20px;    
+}
+.div-plataforma-content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.div-plataforma-content h2{
+    font-size: 40px;
+}
+.div-plataforma-content h1{
+    margin-bottom: 20px;
+    font-size: 15px;
 }
 .div-plataforma-content div{
     margin-bottom: 20px;
@@ -78,13 +91,17 @@ button{
     text-align: start;
     padding-left: 20px;
 }
+.position4{
+    transform: translateY(10px);
+    left: 80%;
+}
 .arrow-negra{
     position: absolute;
 
 }
 .position{
-    top: 52%;
-    left: 82%;
+    top: 72%;
+    transform: translateX(-45px);
 }
 .probar-gratis-btn{
     background-color: transparent;
@@ -97,16 +114,18 @@ button{
 
 }
 .position2{
-    top: 68%;
-    left: 63%;
+    transform: translateY(-1px);
+    right: 30%;
 }
 .reproducir-btn{
     background-color: #B9B8B5;
     border-radius: 10px;
-    width: 162px;
+    width: 145px;
     height: 48px;
-    padding-left: 30px;
+    padding-left: 20px;
     text-align: start;
+    position: absolute;
+    margin-top: 30px;
 }
 .div-confianza{
     padding-left: 20px;
@@ -162,8 +181,8 @@ button{
 }
 .play-negra{
     position: absolute;
-    top: 84%;
-    left: 60%;
+    top: 112%;
+    transform: translateX(99px);
 }
 .solucion-div{
     padding-left: 20px;
@@ -253,19 +272,61 @@ button{
 .tranquilidad-div{
     background-color: #FAFCFD;
     height: 49px;
-    width: 100px;
+    width: 200px;
     position: absolute;
-    transform: translateY(-10px)
+    transform: translateY(-15px);
+    left: 22%;
+    text-align: center;
+}
+hr{
+    border: 2px solid black;
 }
 .tranquilidad-div hr{
     position: relative;
 }
-
+.pros-tranquilidad-div{
+    margin-top: 50px;
+    text-align: center;
+}
+.grey{
+    width: 60px;
+    height: 20px;
+    background-color: #CBD5E0;
+}
+.yellow{
+    width: 60px;
+    height: 20px;
+    background-color: #FFB116;
+}
+.blue{
+    width: 60px;
+    height: 20px;
+    background-color: #17D5FF;
+}
+.pink{
+    width: 60px;
+    height: 20px;
+    background-color: #FF2ACF;
+}
+.red{
+    width: 60px;
+    height: 20px;
+    background-color: #FB322B;
+}
+.green{
+    width: 60px;
+    height: 20px;
+    background-color: #209E00;
+}
+.colores-div{
+    display: flex;
+}
 @media (max-width: 768px){
     .nav-bar{
         justify-content: space-between;
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 20px;
     }
     .nav-content{
         gap: 10px;
@@ -279,5 +340,8 @@ button{
     .img-size{
         width: 340px;
         margin-bottom: 20px;        
+    }
+    .pros{
+        display: flex;
     }
 }
