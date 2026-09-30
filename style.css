@@ -103,15 +103,22 @@ button{
     top: 72%;
     transform: translateX(-45px);
 }
+.probar-gratis-div{
+    margin-top: 75px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
 .probar-gratis-btn{
     background-color: transparent;
     color: white;
     border-style: none;
     position: relative;
 }
+.probar-div{
+    margin-bottom: 20px;
+}
 .arrow-blanca{
     position: absolute;
-
 }
 .position2{
     transform: translateY(-1px);
@@ -291,32 +298,32 @@ hr{
 }
 .grey{
     width: 60px;
-    height: 20px;
+    height: 16px;
     background-color: #CBD5E0;
 }
 .yellow{
     width: 60px;
-    height: 20px;
+    height: 16px;
     background-color: #FFB116;
 }
 .blue{
     width: 60px;
-    height: 20px;
+    height: 16px;
     background-color: #17D5FF;
 }
 .pink{
     width: 60px;
-    height: 20px;
+    height: 16px;
     background-color: #FF2ACF;
 }
 .red{
     width: 60px;
-    height: 20px;
+    height: 16px;
     background-color: #FB322B;
 }
 .green{
     width: 60px;
-    height: 20px;
+    height: 16px;
     background-color: #209E00;
 }
 .colores-div{
@@ -324,42 +331,42 @@ hr{
 }
 .grey1{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #FFFFFF;
 }
 .grey2{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #E4E9EF;
 }
 .grey3{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #CBD5E0;
 }
 .grey4{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #97A1AD;
 }
 .grey5{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #68727C;
 }
 .grey6{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #3D4751;
 }
 .grey7{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #252D35;
 }
 .grey8{
     width: 55px;
-    height: 20px;
+    height: 16px;
     background-color: #181E24;
 }
 .colores-grises-div{
@@ -371,14 +378,65 @@ hr{
     padding-left: 30px;
     padding-right: 30px;
 }
+.texto-centro{
+    text-align: center;
+}
 .novedades-div{
     padding-left: 20px;
+}
+.descubre-ultimo-div{
+    margin-top: 30px;
+}
+.descubre-ultimo-div h2{
+    text-align: center;
+}
+
+.probar-gratis-div h4, p{
+    text-align: start;
+}
+
+.unirse-btn{
+    background-color: #17D5FF;
+    width: 300px;
+    height: 48px;
+    border-radius: 10px;
+    text-align: start;
+    padding-left: 20px;
+}
+.unirse-arrow-div{
+    background-color: #00AACF;
+    width: 49px;
+    height: 28px;
+    border-radius: 5px;
+}
+.atencion-div{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.Explore-btn{
+    background-color: transparent;
+    color: white;
+    width: 315px;
+    height: 48px;
+    text-align: start;
 
 }
 .tarjetas-new{
     width: 345px;
     height: 401px;
     background-color: #F1F5F9;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+ }
+ .tarjetas-new p{
+    text-align: center;
+ }
+ .tarjetas-img{
+    width: 307px;
+    height: 173px;
     border-radius: 10px;
  }
 .tarjetas-new button{
@@ -390,6 +448,9 @@ hr{
     text-align: start;
     position: relative;
  }
+.tarjetas-new p{
+    margin-bottom: 20px;
+}
 .new{
     background-color: #17D5FF;
     width: 44px;
@@ -397,22 +458,32 @@ hr{
     font-size: 12px;
     border-radius: 4px;
     text-align: center;
+    justify-self: center;
+    margin-bottom: 10px;
  }
+
  /*Footer*/
  .equipo-asistencia-div{
-    background-color: #DFE4EA;
+    background-color: #17D5FF;
     width: 285px;
     height: 78px;
     border-radius: 10px;
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 80px;
  }
  .equipo-asistencia-arrow{
-    background-color: #FAFCFD;
+    background-color: #00AACF;
     width: 49px;
     height: 28px;
     border-radius: 5px;
+ }
+ .Contactar-equipo-btn{
+    background-color: transparent;
+ }
+ .producto-recursos-empresa-container{
+    margin-bottom: 70px;
  }
  .idioma-seleccionado{
     display: flex;
@@ -430,7 +501,15 @@ hr{
  .footer-social-div{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 
+ }
+ .footer-text-div{
+    margin-bottom: 100px;
+ }
+ footer{
+    padding-left: 20px;
+    padding-right: 20px;
  }
 
 @media (max-width: 768px){
