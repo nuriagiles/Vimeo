@@ -46,8 +46,8 @@ button{
   overflow: hidden;  
   margin-bottom: 50px;
   margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   justify-self: center;
 }
 
@@ -70,6 +70,7 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 15px;
+    text-align: center;
 }
 .div-plataforma-content h2{
     font-size: 40px;
@@ -91,6 +92,19 @@ button{
     text-align: start;
     padding-left: 20px;
 }
+
+.ver-btn{
+    padding-left: 20px;
+}
+.position7{
+    transform: translateY(12px);
+    left: 78%;
+}
+.position8{
+    transform: translateY(12px);
+    left: 77%;
+}
+
 .position4{
     transform: translateY(10px);
     left: 80%;
@@ -149,8 +163,11 @@ button{
 .div-confianza p{
     margin-bottom: 30px;
 }
-.div-diseñado{
-    margin-top: 150px;
+.confianza-container-animacion{
+    height: 230px;
+    width: 330px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .title-diseñado{
     font-size: 35px;
@@ -206,7 +223,13 @@ button{
     width: 300px;
     height: 48px;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
+    text-align: start;
+    padding-left: 20px;
+}
+.position5{
+    transform: translateY(37px);
+    left: 72%;
 }
 .cole-solucion-div{
     margin-bottom: 20px;
@@ -234,7 +257,7 @@ button{
 }
 .ia-div{
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right:20px;
     padding-top: 20px;
     color: white;
     padding-bottom: 50px;
@@ -242,13 +265,26 @@ button{
 .ia-div button{
     background-color: transparent;
     color: white;
-    position: absolute;
     text-align: start;
+    font-size: 18px;
 }
 .ia-title-div{
     display: flex;
     font-size: 20px;
 
+}
+.ia-texto-container{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ia-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
 }
 
 .seguridad-div{
@@ -276,6 +312,9 @@ button{
     text-align: start;
     position: relative;
     margin-bottom: 50px;
+}
+.position6{
+    transform: translateX(-50px);
 }
 .tranquilidad-div{
     background-color: #FAFCFD;
@@ -378,6 +417,9 @@ hr{
     padding-left: 30px;
     padding-right: 30px;
 }
+.comunidad-text h2{
+    margin-bottom: 20px;
+}
 .texto-centro{
     text-align: center;
 }
@@ -394,24 +436,45 @@ hr{
 .probar-gratis-div h4, p{
     text-align: start;
 }
-
-.unirse-btn{
+.probar-div h3{
+    margin-bottom: 20px;
+}
+.unirse-container{
     background-color: #17D5FF;
-    width: 300px;
-    height: 48px;
+    height: 50px;
     border-radius: 10px;
-    text-align: start;
+    display: flex;
+    padding-right: 20px;
     padding-left: 20px;
+}
+.unirse-btn{
+    background-color: transparent;
+    width: 246px;
+    height: 48px;
+    text-align: start;
+
 }
 .unirse-arrow-div{
     background-color: #00AACF;
     width: 49px;
     height: 28px;
     border-radius: 5px;
+    align-self: center;
+    text-align: center;
 }
 .atencion-div{
     margin-top: 40px;
     margin-bottom: 20px;
+}
+.atencion-div h3{
+    margin-bottom: 15px;
+}
+.atencion-div p{
+    line-height: 30px;
+}
+.Explore-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .Explore-btn{
     background-color: transparent;
@@ -419,7 +482,12 @@ hr{
     width: 315px;
     height: 48px;
     text-align: start;
-
+    padding-left: 22px;
+}
+.position3{
+    left: 75%;
+    rotate: -40deg;
+    transform: translateY(16px);
 }
 .tarjetas-new{
     width: 345px;
@@ -430,6 +498,9 @@ hr{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+ }
+ .tarjetas-new button{
+    margin-bottom: 20px;
  }
  .tarjetas-new p{
     text-align: center;
@@ -464,30 +535,40 @@ hr{
 
  /*Footer*/
  .equipo-asistencia-div{
-    background-color: #17D5FF;
-    width: 285px;
+    background-color: #DFE4EA;
+    width: 295px;
     height: 78px;
     border-radius: 10px;
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 80px;
+    
  }
  .equipo-asistencia-arrow{
-    background-color: #00AACF;
+    background-color: #FAFCFD;
     width: 49px;
     height: 28px;
     border-radius: 5px;
+    align-self: center;
+    text-align: center;
  }
  .Contactar-equipo-btn{
     background-color: transparent;
  }
  .producto-recursos-empresa-container{
     margin-bottom: 70px;
+    line-height: 80px;
+    font-size: 20px;
+ }
+ .servicios-div{
+    display: flex;
+    justify-content: space-between;
  }
  .idioma-seleccionado{
     display: flex;
     gap: 10px;
+    color: #3D4751;
  }
  .idioma-div{
     background-color: #DFE4EA;
@@ -497,19 +578,24 @@ hr{
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
+    align-items: center;
+    color: #3D4751;
  }
  .footer-social-div{
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
 
+
  }
  .footer-text-div{
     margin-bottom: 100px;
+    line-height: 30px;
+    color: #3D4751;
  }
  footer{
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
  }
 
 @media (max-width: 768px){
