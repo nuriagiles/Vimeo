@@ -97,25 +97,25 @@ button{
     padding-left: 20px;
 }
 .position7{
-    transform: translateY(12px);
-    left: 78%;
+    transform: translateX(-50px);
+    margin-top: 12px;
 }
 .position8{
-    transform: translateY(12px);
-    left: 77%;
+   transform: translateX(-49px);
+   margin-top: 12px;
 }
 
 .position4{
-    transform: translateY(10px);
-    left: 80%;
+    transform: translateX(-43px);
+    align-self: center;
 }
 .arrow-negra{
     position: absolute;
 
 }
 .position{
-    top: 72%;
-    transform: translateX(-45px);
+    transform: translateX(-44px);
+    align-self: center;
 }
 .probar-gratis-div{
     margin-top: 75px;
@@ -135,8 +135,7 @@ button{
     position: absolute;
 }
 .position2{
-    transform: translateY(-1px);
-    right: 30%;
+    transform: translateX(22px);
 }
 .reproducir-btn{
     background-color: #B9B8B5;
@@ -205,8 +204,9 @@ button{
 }
 .play-negra{
     position: absolute;
-    top: 112%;
-    transform: translateX(99px);
+    transform: translateY(42px);
+    margin-left: 98px;
+}
 }
 .solucion-div{
     padding-left: 20px;
@@ -228,8 +228,9 @@ button{
     padding-left: 20px;
 }
 .position5{
-    transform: translateY(37px);
-    left: 72%;
+    transform: translateX(-46px);
+    align-self: center;
+    margin-top: 25px;
 }
 .cole-solucion-div{
     margin-bottom: 20px;
@@ -336,32 +337,32 @@ hr{
     text-align: center;
 }
 .grey{
-    width: 60px;
+    width: 100%;
     height: 16px;
     background-color: #CBD5E0;
 }
 .yellow{
-    width: 60px;
+    width: 100%;
     height: 16px;
     background-color: #FFB116;
 }
 .blue{
-    width: 60px;
+    width: 100%;
     height: 16px;
     background-color: #17D5FF;
 }
 .pink{
-    width: 60px;
+    width: 100%;
     height: 16px;
     background-color: #FF2ACF;
 }
 .red{
-    width: 60px;
+    width: 100%;
     height: 16px;
     background-color: #FB322B;
 }
 .green{
-    width: 60px;
+    width: 100%;
     height: 16px;
     background-color: #209E00;
 }
@@ -369,42 +370,42 @@ hr{
     display: flex;
 }
 .grey1{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #FFFFFF;
 }
 .grey2{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #E4E9EF;
 }
 .grey3{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #CBD5E0;
 }
 .grey4{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #97A1AD;
 }
 .grey5{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #68727C;
 }
 .grey6{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #3D4751;
 }
 .grey7{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #252D35;
 }
 .grey8{
-    width: 55px;
+    width: 100%;
     height: 16px;
     background-color: #181E24;
 }
@@ -444,12 +445,12 @@ hr{
     height: 50px;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
     padding-right: 20px;
     padding-left: 20px;
 }
 .unirse-btn{
     background-color: transparent;
-    width: 246px;
     height: 48px;
     text-align: start;
 
@@ -509,7 +510,7 @@ hr{
     width: 307px;
     height: 173px;
     border-radius: 10px;
- }
+ } 
 .tarjetas-new button{
     background-color: #141A20;
     color: white;
@@ -536,21 +537,20 @@ hr{
  /*Footer*/
  .equipo-asistencia-div{
     background-color: #DFE4EA;
-    width: 295px;
     height: 78px;
     border-radius: 10px;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: space-between;
     margin-bottom: 80px;
-    
+    padding-right: 20px;
+    padding-left: 20px;
  }
  .equipo-asistencia-arrow{
     background-color: #FAFCFD;
-    width: 49px;
     height: 28px;
     border-radius: 5px;
     align-self: center;
+    width: 49px;
     text-align: center;
  }
  .Contactar-equipo-btn{
@@ -615,10 +615,13 @@ hr{
         margin-top: 0px;       
     }
     .img-size{
-        width: 340px;
+        width: 100%;
         margin-bottom: 20px;        
     }
     .pros{
         display: flex;
     }
+}
+@media(min-width: ){
+
 }
