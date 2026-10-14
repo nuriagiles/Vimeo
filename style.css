@@ -693,7 +693,7 @@ hr{
                 display: none;
             }   
             .visible-pc{
-                display: block;
+                display: flex;
             }
             .impulsa-divs{
                 display: ruby;
