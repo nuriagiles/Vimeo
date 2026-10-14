@@ -419,9 +419,11 @@ hr{
 }
 .comunidad-div{
     color: white;
-    margin-top: 20px;
+    margin-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .comunidad-text h2{
     margin-bottom: 20px;
@@ -700,6 +702,7 @@ hr{
             }
             .section-cole{
                 display: flex;
+                justify-content: center;
             }
             .cole-solucion-div{
                 display: flex;
@@ -769,5 +772,30 @@ hr{
             .nav-content-ul ul li{
                 list-style: none;
             }
-
+            .ia-div{
+                flex-direction: row-reverse;
+                padding-bottom: 100px;
+                padding-top: 100px;
+                justify-content: center;
+            }
+            .ia-img{
+                width: 40%;
+                height: 40%;
+            }
+            .ia-texto-title-container{
+                line-height: 40px;
+            }
+            .ia-title-div{
+                margin-bottom: 20px;
+            }
+            .pros-div{
+                display: flex;
+                gap: 80px;
+                align-items: center;
+                line-height: 32px;
+            }
+            .cole-solucion-pc{
+                display: flex;
+                flex-direction: column;
+            }
         }
