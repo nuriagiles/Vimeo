@@ -199,8 +199,6 @@ button{
 .cole-div{
     margin-top: 30px;
     margin-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 .play-negra{
     position: absolute;
@@ -233,12 +231,18 @@ button{
     margin-top: 25px;
 }
 .cole-solucion-div{
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .pros-div{
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 120px;
+    margin-top: 50px;
+}
+.pros-img{
+    align-self: self-start;
 }
 .pros-puntos-div{
     display: flex;
@@ -313,21 +317,22 @@ button{
     text-align: start;
     position: relative;
     margin-bottom: 50px;
+    align-self: center;
 }
 .position6{
     transform: translateX(-50px);
 }
 .tranquilidad-div{
     background-color: #FAFCFD;
-    height: 49px;
+    height: 28px;
     width: 200px;
     position: absolute;
-    transform: translateY(-15px);
-    left: 22%;
-    text-align: center;
+    transform: translateX(90px);
+    align-self: center;
 }
 hr{
     border: 2px solid black;
+    max-width: 820px;
 }
 .tranquilidad-div hr{
     position: relative;
@@ -429,6 +434,7 @@ hr{
 }
 .descubre-ultimo-div{
     margin-top: 30px;
+    justify-items: center;
 }
 .descubre-ultimo-div h2{
     text-align: center;
@@ -490,8 +496,9 @@ hr{
     rotate: -40deg;
     transform: translateY(16px);
 }
+
 .tarjetas-new{
-    width: 345px;
+    width: 100%;
     height: 401px;
     background-color: #F1F5F9;
     border-radius: 10px;
@@ -499,6 +506,7 @@ hr{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    text-align: center;
  }
  .tarjetas-new button{
     margin-bottom: 20px;
@@ -507,15 +515,11 @@ hr{
     text-align: center;
  }
  .tarjetas-img{
-    width: 307px;
-    height: 173px;
     border-radius: 10px;
  } 
 .tarjetas-new button{
     background-color: #141A20;
     color: white;
-    width: 300px;
-    height: 48px;
     border-radius: 10px;
     text-align: start;
     position: relative;
@@ -541,7 +545,6 @@ hr{
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
     padding-right: 20px;
     padding-left: 20px;
  }
@@ -597,31 +600,174 @@ hr{
     padding-left: 20px;
     padding-right: 30px;
  }
-
+ .menu-movil{
+    display: none;
+ }
 @media (max-width: 768px){
-    .nav-bar{
-        justify-content: space-between;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-    }
-    .nav-content{
-        gap: 10px;
-        align-items: center;
-        text-align: center;
-    }
-    .nav-content p{
-        font-size: 10px; 
-        margin-top: 0px;       
-    }
-    .img-size{
-        width: 100%;
-        margin-bottom: 20px;        
-    }
-    .pros{
-        display: flex;
-    }
-}
-@media(min-width: ){
+        .visible-movil{
+            display: block;
+        }
+        .visible-pc{
+            display: none;
+        }
+        .nav-bar{
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+        .nav-content{
+            gap: 10px;
+            align-items: center;
+            text-align: center;
+        }
+        .nav-content p{
+            font-size: 10px; 
+            margin-top: 0px;       
+        }
+        .img-size{
+            width: 100%;
+            margin-bottom: 20px;        
+        }
+        .tarjetas-img{
+            width: 100%;
+            height: 229px;
+        }
+        .tarjetas-new button{
+            width: 300px;
+            height: 48px;
+        }
+        .pros{
+            display: flex;
+        }
+        .equipo-asistencia-div{
+            margin-bottom: 80px;
+        }
+        .menu-movil{
+            display: flex;
+            justify-self: center;
+            gap: 10px;
+            position: fixed;
+            bottom: 0;
+            justify-content: center;
+            width: 100%;
+            z-index: 9999;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
 
+        }
+        .menu-movil-div{
+            border-radius: 20px;
+            background-color: rgb(108 113 117 / 70%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            justify-self: center;
+            padding: 10px 10px 10px 10px;
+        }
+        .menu-movil-div p{
+            font-size: 9px;
+            color: white;
+        }
+        .menu-movil-div div{
+            justify-items: center;
+        }
+        .unirse-gratis-div{
+            width: 130px;
+            border-radius: 20px;
+            background-color: #17D5FF;
+            color: black;
+            text-align-last: center;
+            padding: 20px 20px 20px 20px;
+        }
+        .unirse-gratis-div p{
+            font-size: 9px;
+        }
+        
 }
+
+@media (min-width: 770px){
+            .visible-movil{
+                display: none;
+            }   
+            .visible-pc{
+                display: block;
+            }
+            .impulsa-divs{
+                display: ruby;
+            }
+            .section-cole{
+                display: flex;
+            }
+            .cole-solucion-div{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .tarjetas-new-container{
+                display: flex;
+                gap: 30px;
+            }
+            .tarjetas-img{
+                width: 239px;
+            }
+            .tarjetas-new{
+                width: 355px;
+                height: 471px;        display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                padding-bottom: 42px;
+            }
+            .tarjetas-new button{
+                width: 131px;
+                height: 48px;
+            }
+            .probar-atencion-container{
+                display: flex;
+                align-items: center;
+                gap: 247px;
+            }
+            .equipo-asistencia-div{
+                width: 326px;
+            }
+            .unirse-container{
+                width: 156px;
+            }
+            .producto-recursos-empresa-container-pc{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            .productos-funciones-soluciones-ul{
+                display: flex;
+                gap: 25px;
+                margin-top: 20px;
+                margin-right: 50px;
+                line-height: 25px;
+            }
+            .productos-funciones-soluciones-ul li{
+                list-style: none;
+                color: grey;
+            }
+            .recursos-empresa{
+                display: flex;
+                gap: 50px;
+            }
+            .recursos-empresa ul{
+                margin-top: 20px;
+                line-height: 25px;
+            }
+            .recursos-empresa ul li{
+                list-style: none;
+                color: grey;
+            }
+            .nav-content-ul ul{
+                display: flex;
+            }
+            .nav-content-ul ul li{
+                list-style: none;
+            }
+
+        }
